@@ -1,0 +1,11 @@
+{
+  "capturedAt": "2026-08-18T19:17:17.346Z",
+  "code": "class Solution {\npublic:\n    int removeDuplicates(vector<int>& nums) {\n        // std::unique\n        return unique(nums.begin(),nums.end())-nums.begin();\n    }\n};",
+  "description": "给你一个 非严格递增排列 的数组 nums ，请你 原地 删除重复出现的元素，使每个元素 只出现一次 ，返回删除后数组的新长度。元素的 相对顺序 应该保持 一致 。然后返回 nums 中唯一元素的个数。\n\n考虑 nums 的唯一元素的数量为 k。去重后，返回唯一元素的数量 k。\n\nnums 的前 k 个元素应包含 排序后 的唯一数字。下标 k - 1 之后的剩余元素可以忽略。\n\n判题标准:\n\n系统会用下面的代码来测试你的题解:\n\nint[] nums = [...]; // 输入数组\nint[] expectedNums = [...]; // 长度正确的期望答案\n\nint k = removeDuplicates(nums); // 调用\n\nassert k == expectedNums.length;\nfor (int i = 0; i < k; i++) {\n    assert nums[i] == expectedNums[i];\n}\n\n如果所有断言都通过，那么您的题解将被 通过。\n\n \n\n示例 1：\n\n输入：nums = [1,1,2]\n输出：2, nums = [1,2,_]\n解释：函数应该返回新的长度 2 ，并且原数组 nums 的前两个元素被修改为 1, 2 。不需要考虑数组中超出新长度后面的元素。\n\n示例 2：\n\n输入：nums = [0,0,1,1,1,2,2,3,3,4]\n输出：5, nums = [0,1,2,3,4,_,_,_,_,_]\n解释：函数应该返回新的长度 5 ， 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4 。不需要考虑数组中超出新长度后面的元素。\n\n \n\n提示：\n\n1 <= nums.length <= 3 * 104\n-100 <= nums[i] <= 100\nnums 已按 非递减 顺序排列。",
+  "language": "C++",
+  "problemId": "26",
+  "samples": "输入：nums = [1,1,2]\n输出：2, nums = [1,2,_]\n解释：函数应该返回新的长度 2 ，并且原数组 nums 的前两个元素被修改为 1, 2 。不需要考虑数组中超出新长度后面的元素。\n\n输入：nums = [0,0,1,1,1,2,2,3,3,4]\n输出：5, nums = [0,1,2,3,4,_,_,_,_,_]\n解释：函数应该返回新的长度 5 ， 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4 。不需要考虑数组中超出新长度后面的元素。",
+  "source": "https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150",
+  "title": "26. 删除有序数组中的重复项 - 力扣（LeetCode）",
+  "savedAt": "2026-08-18T19:17:17.349Z"
+}

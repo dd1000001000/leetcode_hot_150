@@ -1,0 +1,11 @@
+{
+  "capturedAt": "2026-08-18T19:04:10.233Z",
+  "code": "class Solution {\npublic:\n    int removeElement(vector<int>& nums, int val) {\n        \n    }\n};",
+  "description": "给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素。元素的顺序可能发生改变。然后返回 nums 中与 val 不同的元素的数量。\n\n假设 nums 中不等于 val 的元素数量为 k，要通过此题，您需要执行以下操作：\n\n更改 nums 数组，使 nums 的前 k 个元素包含不等于 val 的元素。nums 的其余元素和 nums 的大小并不重要。\n返回 k。\n\n用户评测：\n\n评测机将使用以下代码测试您的解决方案：\n\nint[] nums = [...]; // 输入数组\nint val = ...; // 要移除的值\nint[] expectedNums = [...]; // 长度正确的预期答案。\n                            // 它以不等于 val 的值排序。\n\nint k = removeElement(nums, val); // 调用你的实现\n\nassert k == expectedNums.length;\nsort(nums, 0, k); // 排序 nums 的前 k 个元素\nfor (int i = 0; i < k; i++) {\n    assert nums[i] == expectedNums[i];\n}\n\n如果所有的断言都通过，你的解决方案将会 通过。\n\n \n\n示例 1：\n\n输入：nums = [3,2,2,3], val = 3\n输出：2, nums = [2,2,_,_]\n解释：你的函数应该返回 k = 2, 并且 nums 中的前两个元素均为 2。\n你在返回的 k 个元素之外留下了什么并不重要（因此它们并不计入评测）。\n\n示例 2：\n\n输入：nums = [0,1,2,2,3,0,4,2], val = 2\n输出：5, nums = [0,1,4,0,3,_,_,_]\n解释：你的函数应该返回 k = 5，并且 nums 中的前五个元素为 0,0,1,3,4。\n注意这五个元素可以任意顺序返回。\n你在返回的 k 个元素之外留下了什么并不重要（因此它们并不计入评测）。\n\n \n\n提示：\n\n0 <= nums.length <= 100\n0 <= nums[i] <= 50\n0 <= val <= 100",
+  "language": "C++",
+  "problemId": "27",
+  "samples": "输入：nums = [3,2,2,3], val = 3\n输出：2, nums = [2,2,_,_]\n解释：你的函数应该返回 k = 2, 并且 nums 中的前两个元素均为 2。\n你在返回的 k 个元素之外留下了什么并不重要（因此它们并不计入评测）。\n\n输入：nums = [0,1,2,2,3,0,4,2], val = 2\n输出：5, nums = [0,1,4,0,3,_,_,_]\n解释：你的函数应该返回 k = 5，并且 nums 中的前五个元素为 0,0,1,3,4。\n注意这五个元素可以任意顺序返回。\n你在返回的 k 个元素之外留下了什么并不重要（因此它们并不计入评测）。",
+  "source": "https://leetcode.cn/problems/remove-element/description/?envType=study-plan-v2&envId=top-interview-150",
+  "title": "27. 移除元素 - 力扣（LeetCode）",
+  "savedAt": "2026-08-18T19:04:10.235Z"
+}
