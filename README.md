@@ -25,4 +25,4 @@
 
 ## B 站视频合集
 
-[LeetCode Hot 150 视频合集](https://space.bilibili.com/457847270/lists/5161437?type=series)
+[LeetCode Hot 150 视频合集](https://space.bilibili.com/457847270/lists/8872239?type=season)
