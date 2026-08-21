@@ -1,0 +1,11 @@
+{
+  "capturedAt": "2026-08-20T18:36:43.029Z",
+  "code": "class Solution {\npublic:\n    vector<int> productExceptSelf(vector<int>& nums) {\n        \n    }\n};",
+  "description": "给你一个整数数组 nums，返回 数组 answer ，其中 answer[i] 等于 nums 中除了 nums[i] 之外其余各元素的乘积 。\n\n题目数据 保证 数组 nums之中任意元素的全部前缀元素和后缀的乘积都在  32 位 整数范围内。\n\n请 不要使用除法，且在 O(n) 时间复杂度内完成此题。\n\n \n\n示例 1:\n\n输入: nums = [1,2,3,4]\n输出: [24,12,8,6]\n\n示例 2:\n\n输入: nums = [-1,1,0,-3,3]\n输出: [0,0,9,0,0]\n\n \n\n提示：\n\n2 <= nums.length <= 105\n-30 <= nums[i] <= 30\n输入 保证 数组 answer[i] 在  32 位 整数范围内\n\n \n\n进阶：你可以在 O(1) 的额外空间复杂度内完成这个题目吗？（ 出于对空间复杂度分析的目的，输出数组 不被视为 额外空间。）",
+  "language": "C++",
+  "problemId": "238",
+  "samples": "输入: nums = [1,2,3,4]\n输出: [24,12,8,6]\n\n输入: nums = [-1,1,0,-3,3]\n输出: [0,0,9,0,0]",
+  "source": "https://leetcode.cn/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=top-interview-150",
+  "title": "238. 除了自身以外数组的乘积",
+  "savedAt": "2026-08-20T18:36:43.033Z"
+}
