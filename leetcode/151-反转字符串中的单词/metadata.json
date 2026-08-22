@@ -1,0 +1,11 @@
+{
+  "capturedAt": "2026-08-22T18:12:23.422Z",
+  "code": "class Solution:\n    def reverseWords(self, s: str) -> str:\n        ",
+  "description": "给你一个字符串 s ，请你反转字符串中 单词 的顺序。\n\n单词 是由非空格字符组成的字符串。s 中使用至少一个空格将字符串中的 单词 分隔开。\n\n返回 单词 顺序颠倒且 单词 之间用单个空格连接的结果字符串。\n\n注意：输入字符串 s中可能会存在前导空格、尾随空格或者单词间的多个空格。返回的结果字符串中，单词间应当仅用单个空格分隔，且不包含任何额外的空格。\n\n \n\n示例 1：\n\n输入：s = \"the sky is blue\"\n输出：\"blue is sky the\"\n\n示例 2：\n\n输入：s = \"  hello world  \"\n输出：\"world hello\"\n解释：反转后的字符串中不能存在前导空格和尾随空格。\n\n示例 3：\n\n输入：s = \"a good   example\"\n输出：\"example good a\"\n解释：如果两个单词间有多余的空格，反转后的字符串需要将单词间的空格减少到仅有一个。\n\n \n\n提示：\n\n1 <= s.length <= 104\ns 包含英文大小写字母、数字和空格 ' '\ns 中 至少存在一个 单词\n\n \n\n进阶：如果字符串在你使用的编程语言中是一种可变数据类型，请尝试使用 O(1) 额外空间复杂度的 原地 解法。",
+  "language": "Python3",
+  "problemId": "151",
+  "samples": "输入：s = \"the sky is blue\"\n输出：\"blue is sky the\"\n\n输入：s = \"  hello world  \"\n输出：\"world hello\"\n解释：反转后的字符串中不能存在前导空格和尾随空格。\n\n输入：s = \"a good   example\"\n输出：\"example good a\"\n解释：如果两个单词间有多余的空格，反转后的字符串需要将单词间的空格减少到仅有一个。",
+  "source": "https://leetcode.cn/problems/reverse-words-in-a-string/?envType=study-plan-v2&envId=top-interview-150",
+  "title": "151. 反转字符串中的单词",
+  "savedAt": "2026-08-22T18:12:23.425Z"
+}
