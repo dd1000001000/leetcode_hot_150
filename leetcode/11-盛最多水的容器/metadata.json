@@ -1,0 +1,11 @@
+{
+  "capturedAt": "2026-08-24T17:58:06.011Z",
+  "code": "class Solution {\npublic:\n    int maxArea(vector<int>& height) {\n        \n    }\n};",
+  "description": "给定一个长度为 n 的整数数组 height 。有 n 条垂线，第 i 条线的两个端点是 (i, 0) 和 (i, height[i]) 。\n\n找出其中的两条线，使得它们与 x 轴共同构成的容器可以容纳最多的水。\n\n返回容器可以储存的最大水量。\n\n说明：你不能倾斜容器。\n\n \n\n示例 1：\n\n输入：[1,8,6,2,5,4,8,3,7]\n输出：49 \n解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。\n\n示例 2：\n\n输入：height = [1,1]\n输出：1\n\n \n\n提示：\n\nn == height.length\n2 <= n <= 105\n0 <= height[i] <= 104",
+  "language": "C++",
+  "problemId": "11",
+  "samples": "输入：[1,8,6,2,5,4,8,3,7]\n输出：49 \n解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。\n\n输入：height = [1,1]\n输出：1",
+  "source": "https://leetcode.cn/problems/container-with-most-water/description/?envType=study-plan-v2&envId=top-interview-150",
+  "title": "11. 盛最多水的容器",
+  "savedAt": "2026-08-24T17:58:06.013Z"
+}
