@@ -1,0 +1,11 @@
+{
+  "capturedAt": "2026-08-28T21:24:48.270Z",
+  "code": "class Solution {\npublic:\n    bool canConstruct(string ransomNote, string magazine) {\n        \n    }\n};",
+  "description": "给你两个字符串：ransomNote 和 magazine ，判断 ransomNote 能不能由 magazine 里面的字符构成。\n\n如果可以，返回 true ；否则返回 false 。\n\nmagazine 中的每个字符只能在 ransomNote 中使用一次。\n\n \n\n示例 1：\n\n输入：ransomNote = \"a\", magazine = \"b\"\n输出：false\n\n示例 2：\n\n输入：ransomNote = \"aa\", magazine = \"ab\"\n输出：false\n\n示例 3：\n\n输入：ransomNote = \"aa\", magazine = \"aab\"\n输出：true\n\n \n\n提示：\n\n1 <= ransomNote.length, magazine.length <= 105\nransomNote 和 magazine 由小写英文字母组成",
+  "language": "C++",
+  "problemId": "383",
+  "samples": "输入：ransomNote = \"a\", magazine = \"b\"\n输出：false\n\n输入：ransomNote = \"aa\", magazine = \"ab\"\n输出：false\n\n输入：ransomNote = \"aa\", magazine = \"aab\"\n输出：true",
+  "source": "https://leetcode.cn/problems/ransom-note/description/?envType=study-plan-v2&envId=top-interview-150",
+  "title": "383. 赎金信",
+  "savedAt": "2026-08-28T21:24:48.273Z"
+}
