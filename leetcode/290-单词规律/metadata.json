@@ -1,0 +1,11 @@
+{
+  "capturedAt": "2026-08-30T17:15:41.963Z",
+  "code": "class Solution {\npublic:\n    bool wordPattern(string pattern, string s) {\n        \n    }\n};",
+  "description": "给定一种规律 pattern 和一个字符串 s ，判断 s 是否遵循相同的规律。\n\n这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 s 中的每个非空单词之间存在着双向连接的对应规律。具体来说：\n\npattern 中的每个字母都 恰好 映射到 s 中的一个唯一单词。\ns 中的每个唯一单词都 恰好 映射到 pattern 中的一个字母。\n没有两个字母映射到同一个单词，也没有两个单词映射到同一个字母。\n\n \n\n示例1:\n\n输入: pattern = \"abba\", s = \"dog cat cat dog\"\n输出: true\n\n示例 2:\n\n输入:pattern = \"abba\", s = \"dog cat cat fish\"\n输出: false\n\n示例 3:\n\n输入: pattern = \"aaaa\", s = \"dog cat cat dog\"\n输出: false\n\n \n\n提示:\n\n1 <= pattern.length <= 300\npattern 只包含小写英文字母\n1 <= s.length <= 3000\ns 只包含小写英文字母和 ' '\ns 不包含 任何前导或尾随对空格\ns 中每个单词都被 单个空格 分隔",
+  "language": "C++",
+  "problemId": "290",
+  "samples": "输入: pattern = \"abba\", s = \"dog cat cat dog\"\n输出: true\n\n输入:pattern = \"abba\", s = \"dog cat cat fish\"\n输出: false\n\n输入: pattern = \"aaaa\", s = \"dog cat cat dog\"\n输出: false",
+  "source": "https://leetcode.cn/problems/word-pattern/description/?envType=study-plan-v2&envId=top-interview-150",
+  "title": "290. 单词规律",
+  "savedAt": "2026-08-30T17:15:41.966Z"
+}
