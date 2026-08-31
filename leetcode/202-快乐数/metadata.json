@@ -1,0 +1,13 @@
+{
+  "capturedAt": "2026-08-31T18:43:11.847Z",
+  "code": "class Solution {\npublic:\n    bool isHappy(int n) {\n        \n    }\n};",
+  "description": "编写一个算法来判断一个数 n 是不是快乐数。\n\n「快乐数」 定义为：\n\n对于一个正整数，每一次将该数替换为它每个位置上的数字的平方和。\n然后重复这个过程直到这个数变为 1，也可能是 无限循环 但始终变不到 1。\n如果这个过程 结果为 1，那么这个数就是快乐数。\n\n如果 n 是 快乐数 就返回 true ；不是，则返回 false 。\n\n \n\n示例 1：\n\n输入：n = 19\n输出：true\n解释：\n12 + 92 = 82\n82 + 22 = 68\n62 + 82 = 100\n12 + 02 + 02 = 1\n\n示例 2：\n\n输入：n = 2\n输出：false\n\n \n\n提示：\n\n1 <= n <= 231 - 1",
+  "language": "C++",
+  "problemId": "202",
+  "problemSlug": "happy-number",
+  "problemUrl": "https://leetcode.cn/problems/happy-number/",
+  "samples": "输入：n = 19\n输出：true\n解释：\n12 + 92 = 82\n82 + 22 = 68\n62 + 82 = 100\n12 + 02 + 02 = 1\n\n输入：n = 2\n输出：false",
+  "source": "https://leetcode.cn/problems/happy-number/description/?envType=study-plan-v2&envId=top-interview-150",
+  "title": "202. 快乐数",
+  "savedAt": "2026-08-31T18:43:11.854Z"
+}
