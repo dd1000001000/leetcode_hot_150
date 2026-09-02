@@ -1,0 +1,13 @@
+{
+  "capturedAt": "2026-09-02T20:09:16.208Z",
+  "code": "class MinStack {\npublic:\n    MinStack() {\n        \n    }\n    \n    void push(int value) {\n        \n    }\n    \n    void pop() {\n        \n    }\n    \n    int top() {\n        \n    }\n    \n    int getMin() {\n        \n    }\n};\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * MinStack* obj = new MinStack();\n * obj->push(value);\n * obj->pop();\n * int param_3 = obj->top();\n * int param_4 = obj->getMin();\n */",
+  "description": "设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。\n\n实现 MinStack 类:\n\nMinStack() 初始化堆栈对象。\nvoid push(int value) 将元素 value 推入堆栈。\nvoid pop() 删除堆栈顶部的元素。\nint top() 获取堆栈顶部的元素。\nint getMin() 获取堆栈中的最小元素。\n\n \n\n示例 1:\n\n输入：\n[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]\n\n输出：\n[null,null,null,null,-3,null,0,-2]\n\n解释：\nMinStack minStack = new MinStack();\nminStack.push(-2);\nminStack.push(0);\nminStack.push(-3);\nminStack.getMin();   --> 返回 -3.\nminStack.pop();\nminStack.top();      --> 返回 0.\nminStack.getMin();   --> 返回 -2.\n\n \n\n提示：\n\n-231 <= val <= 231 - 1\npop、top 和 getMin 操作总是在 非空栈 上调用\npush, pop, top, and getMin最多被调用 3 * 104 次",
+  "language": "C++",
+  "problemId": "155",
+  "problemSlug": "min-stack",
+  "problemUrl": "https://leetcode.cn/problems/min-stack/",
+  "samples": "输入：\n[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]\n\n输出：\n[null,null,null,null,-3,null,0,-2]\n\n解释：\nMinStack minStack = new MinStack();\nminStack.push(-2);\nminStack.push(0);\nminStack.push(-3);\nminStack.getMin();   --> 返回 -3.\nminStack.pop();\nminStack.top();      --> 返回 0.\nminStack.getMin();   --> 返回 -2.",
+  "source": "https://leetcode.cn/problems/min-stack/description/?envType=study-plan-v2&envId=top-interview-150",
+  "title": "155. 最小栈",
+  "savedAt": "2026-09-02T20:09:16.210Z"
+}
